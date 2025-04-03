@@ -50,6 +50,10 @@ I'm a Computer Science student at UTFSM, passionate about web development.
   <img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white">
 </span>
 
+## Socials
+<a href="https://discordapp.com/users/279720232887648256/" target="_blank"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="discord"></a>
+<a href="https://www.linkedin.com/in/sebastian-richiardi/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"></a>
+
 ## GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats-kroders-projects.vercel.app/api?username=KroderDev&show_icons=true&theme=radical)
