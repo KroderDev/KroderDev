@@ -56,8 +56,8 @@ I'm a Computer Science student at UTFSM, passionate about web development.
 
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats-kroders-projects.vercel.app/api?username=KroderDev&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats-kroders-projects.vercel.app/api/top-langs/?username=KroderDev&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats-kroders-projects.vercel.app/api?username=KroderDev&show_icons=true&theme=radical&count_private=true)
+![Top Langs](https://github-readme-stats-kroders-projects.vercel.app/api/top-langs/?username=KroderDev&show_icons=true&theme=radical&count_private=true)
 
 <!--
 **KroderDev/KroderDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
