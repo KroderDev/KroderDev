@@ -1,10 +1,13 @@
-## Hi there 👋
+## Hi there 👋 I'm Sebastián (aka Kroder)
 
-I'm a Computer Science student at UTFSM, passionate about web development.
+💻 I'm a **Freelance Software Developer** with a strong foundation in web technologies and a passion for building creative, functional solutions.  
+🎓 I'm currently studying **Computer Science and Engineering** at **UTFSM (Federico Santa María Technical University)** in Chile.  
+👨‍🏫 I also work as a **tech workshop instructor**, sharing knowledge with high school students to inspire the next generation of creators.  
+
+🚀 Looking to collaborate, learn, and contribute to meaningful projects!
 
 ## Personal Ventures
 - [**TCG Marketplace**](https://tcgmarketplace.cl/)
-
 
 ## 🤝 Web Projects for Clients
 - <img src="https://tomani.com.ec/favicon.ico" width="22"> [**tomani.com.ec**](https://tomani.com.ec)
