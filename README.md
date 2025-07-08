@@ -60,8 +60,11 @@
 
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats-kroders-projects.vercel.app/api?username=KroderDev&show_icons=true&theme=radical&count_private=true)
-![Top Langs](https://github-readme-stats-kroders-projects.vercel.app/api/top-langs/?username=KroderDev&show_icons=true&theme=radical&count_private=true)
+<div align="center">
+  <img src="https://github-readme-stats-kroders-projects.vercel.app/api?username=KroderDev&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" width="455" height="189" alt="KroderDev's Stats">
+  <img src="https://github-readme-stats-kroders-projects.vercel.app/api/top-langs/?username=KroderDev&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&langs_count=8" width="300" height="189" alt="KroderDev's Top Languages">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KroderDev&theme=tokyonight&hide_border=true&mode=weekly&card_width=780" width="780" height="189" alt="KroderDev's Streak">
+</div>
 
 <!--
 **KroderDev/KroderDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
