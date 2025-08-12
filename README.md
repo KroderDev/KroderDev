@@ -1,7 +1,7 @@
 ## Hi there 👋 I'm Sebastián (aka Kroder)
 
 💻 I'm a **Freelance Software Developer** with a strong foundation in web technologies and a passion for building creative, functional solutions.  
-🎓 I'm currently studying **Computer Science and Engineering** at **UTFSM (Federico Santa María Technical University)** in Chile.  
+🎓 I'm currently studying **Civil Computer Engineering** at **UTFSM (Federico Santa María Technical University)** in Chile.  
 👨‍🏫 I also work as a **tech workshop instructor**, sharing knowledge with high school students to inspire the next generation of creators.  
 
 🚀 Looking to collaborate, learn, and contribute to meaningful projects!
