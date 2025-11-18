@@ -1,0 +1,209 @@
+/* @theme kroder-theme */
+
+@import 'default';
+
+:root {
+    /* --- KRODER.DEV COLOR PALETTE (Adjustable) --- */
+    /* Primary Background: A deep dark color (VS Code or GitHub Dark style) */
+    --kroder-bg: #0f1117;
+    
+    /* Secondary Background (code blocks, cards): Slightly lighter */
+    --kroder-surface: #1e293b;
+    
+    /* Main Text: Off-white/Grayish white to reduce eye strain */
+    --kroder-text: #e2e8f0;
+    
+    /* Primary Accent: Electric Cyan/Blue (Typical tech/dev color) */
+    --kroder-primary: #38bdf8;
+    
+    /* Secondary Accent: Purple or Pink (For emphasis/secondary titles) */
+    --kroder-secondary: #c084fc;
+    
+    /* Color for errors or important alerts */
+    --kroder-danger: #f43f5e;
+    
+    /* Color for success or code strings */
+    --kroder-success: #4ade80;
+
+    /* --- FONTS --- */
+    --kroder-font-main: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+    --kroder-font-code: 'Fira Code', 'JetBrains Mono', monospace;
+}
+
+/* Base style for all Marp slides */
+section {
+    background-color: var(--kroder-bg); /* Fallback to theme background */
+    /* Subtle gradient for depth */
+    background-image: linear-gradient(to bottom right, #0f1117, #161b22);
+    color: var(--kroder-text);
+    font-family: var(--kroder-font-main);
+    font-size: 28px;
+    padding: 40px 60px;
+    letter-spacing: -0.01em;
+}
+
+/* --- HEADINGS --- */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--kroder-primary);
+    margin-bottom: 0.8em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Primary Title (H1) Styling */
+h1 {
+    font-size: 2.2em;
+    /* Gradient text effect using primary and secondary colors */
+    background: -webkit-linear-gradient(0deg, var(--kroder-primary), var(--kroder-secondary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Subtle bottom divider */
+    border-bottom: 2px solid rgba(56, 189, 248, 0.2);
+    padding-bottom: 0.3em;
+}
+
+/* Secondary Title (H2) Styling */
+h2 {
+    font-size: 1.6em;
+    color: var(--kroder-text); /* Secondary titles in off-white */
+    /* Left border accent */
+    border-left: 5px solid var(--kroder-secondary);
+    padding-left: 20px;
+}
+
+/* --- LINKS --- */
+a {
+    color: var(--kroder-secondary);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--kroder-secondary);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: var(--kroder-primary);
+    border-bottom-style: solid;
+}
+
+/* --- CODE BLOCKS (Adapted Rosé Pine Style) --- */
+pre {
+    background: var(--kroder-surface);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Inline code styling */
+code {
+    font-family: var(--kroder-font-code);
+    color: var(--kroder-primary); /* Inline variables */
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+/* Code inside <pre> block: reset colors */
+pre code {
+    color: var(--kroder-text);
+    background: transparent;
+    padding: 0;
+}
+
+/* Basic Syntax Highlighting (Simulated for Marp) */
+/* Note: Marp uses highlight.js; these selectors adjust general colors */
+.hljs-keyword, .hljs-selector-tag { 
+    color: var(--kroder-secondary); 
+    font-weight: bold; 
+}
+.hljs-string, .hljs-attribute { 
+    color: var(--kroder-success); 
+}
+.hljs-comment { 
+    color: #64748b; 
+    font-style: italic; 
+}
+.hljs-number, .hljs-literal { 
+    color: #fbbf24; 
+}
+
+/* --- LISTS --- */
+ul li::marker {
+    color: var(--kroder-secondary);
+}
+
+/* --- SPECIAL CLASSES --- */
+
+/* Title Slide: uses `section.lead` */
+section.lead {
+    /* Radial gradient centered */
+    background: radial-gradient(circle at center, #1e293b 0%, #0f1117 100%);
+    text-align: center;
+    /* Center content vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.lead h1 {
+    font-size: 3em;
+    border-bottom: none;
+    margin-bottom: 0.2em;
+}
+
+section.lead p {
+    color: #94a3b8;
+    font-size: 1.2em;
+}
+
+/* Strong emphasis */
+strong {
+    color: var(--kroder-primary);
+}
+
+/* Blockquotes/Citations */
+blockquote {
+    background: rgba(56, 189, 248, 0.1);
+    border-left: 4px solid var(--kroder-primary);
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: var(--kroder-text);
+    font-style: italic;
+}
+
+/* Images Styling */
+img {
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* --- FLOATING LOGO (HEADER) --- */
+header {
+    /* Absolute positioning on the slide */
+    text-decoration: none;
+    position: absolute;
+    top: 20px;      /* Spacing from the top */
+    right: 30px;    /* Spacing from the right */
+    left: auto;     /* Overrides Marp's default (left) */
+    
+    /* Ensure no background or borders */
+    background: transparent;
+    width: auto;
+    height: auto;
+    
+    /* Optional: Make it slightly transparent until hover */
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+header:hover {
+    opacity: 1;
+}
+
+header img {
+    vertical-align: middle;
+    /* Soft shadow to stand out against dark backgrounds */
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+}
