@@ -134,19 +134,26 @@ ul li::marker {
 
 /* --- TABLES --- */
 table {
-    width: 100%;
+    /* High specificity to override Marp default white tables */
+    background-color: var(--kroder-surface) !important;
     border-collapse: separate;
     border-spacing: 0;
-    background: var(--kroder-surface);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
     border-radius: 10px;
     overflow: hidden;
     margin: 1.5em 0;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    color: var(--kroder-text);
+}
+
+/* Reset Marp defaults that force white cells/borders */
+table, thead, tbody, th, td, tr {
+    background-color: transparent !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
 }
 
 thead {
-    background: linear-gradient(90deg, rgba(56, 189, 248, 0.2), rgba(192, 132, 252, 0.2));
+    background: linear-gradient(90deg, rgba(56, 189, 248, 0.15), rgba(192, 132, 252, 0.15));
 }
 
 th, td {
@@ -160,6 +167,7 @@ th {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--kroder-primary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 tbody tr {
@@ -167,17 +175,26 @@ tbody tr {
     transition: background 0.2s ease;
 }
 
-tbody tr:nth-child(even) {
+tbody tr:nth-child(odd) td {
     background: rgba(255, 255, 255, 0.02);
 }
 
-tbody tr:hover {
-    background: rgba(56, 189, 248, 0.08);
+tbody tr:nth-child(even) td {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+tbody tr:hover td {
+    background: rgba(56, 189, 248, 0.12);
 }
 
 td:first-child {
+    background: rgba(192, 132, 252, 0.08);
     color: var(--kroder-secondary);
-    font-weight: 600;
+    font-weight: 700;
+}
+
+th:last-child, td:last-child {
+    border-right: none;
 }
 
 caption {
