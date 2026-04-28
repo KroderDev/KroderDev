@@ -6,12 +6,6 @@
 
 🚀 Looking to collaborate, learn, and contribute to meaningful projects!
 
-## Personal Ventures
-- [**TCG Marketplace**](https://tcgmarketplace.cl/)
-
-## 🤝 Web Projects for Clients
-- <img src="https://mida.com.ec/favicon.ico" width="22"> [**mida.com.ec**](https://mida.com.ec)
-
 ## My Skills
 
 <h4> Languages </h4>
