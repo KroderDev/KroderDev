@@ -72,8 +72,8 @@
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats-kroders-projects.vercel.app/api?username=KroderDev&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" width="455" height="189" alt="KroderDev's Stats">
-  <img src="https://github-readme-stats-kroders-projects.vercel.app/api/top-langs/?username=KroderDev&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&langs_count=8&size_weight=0.7&count_weight=0.3&hide=scss,tex,shaderlab" width="300" height="189" alt="KroderDev's Top Languages">
+  <img src="./profile/stats.svg" width="455" height="189" alt="KroderDev's Stats">
+  <img src="./profile/top-langs.svg" width="300" height="189" alt="KroderDev's Top Languages">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KroderDev&theme=tokyonight&hide_border=true&mode=weekly&card_width=780" width="780" height="189" alt="KroderDev's Streak">
 </div>
 
