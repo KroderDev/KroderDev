@@ -35,7 +35,7 @@ jobs:
           token: ${{ secrets.GH_STATS_TOKEN }}
 
       - name: Generate streak stats
-        uses: DenverCoder1/github-readme-streak-stats-action@v1
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
           options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&mode=weekly&card_width=780
           path: profile/streak.svg
