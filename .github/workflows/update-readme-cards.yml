@@ -3,6 +3,9 @@ name: Update README cards
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    paths:
+      - ".github/workflows/update-readme-cards.yml"
   workflow_dispatch:
 
 jobs:
@@ -30,6 +33,13 @@ jobs:
           options: username=${{ github.repository_owner }}&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&langs_count=8&size_weight=0.7&count_weight=0.3&hide=scss,tex,shaderlab
           path: profile/top-langs.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats-action@v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&mode=weekly&card_width=780
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
         run: |

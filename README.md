@@ -74,7 +74,7 @@
 <div align="center">
   <img src="./profile/stats.svg" width="455" height="189" alt="KroderDev's Stats">
   <img src="./profile/top-langs.svg" width="300" height="189" alt="KroderDev's Top Languages">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KroderDev&theme=tokyonight&hide_border=true&mode=weekly&card_width=780" width="780" height="189" alt="KroderDev's Streak">
+  <img src="./profile/streak.svg" width="780" height="189" alt="KroderDev's Streak">
 </div>
 
 <!--
