@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Sebasti&#225;n Richiardi&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 16, Total Commits  (last year) : 5769, Total PRs: 1082, Total Issues: 81, Contributed to (last year): 70</desc>
+        <desc id="descId">Total Stars Earned: 16, Total Commits  (last year) : 5788, Total PRs: 1090, Total Issues: 81, Contributed to (last year): 71</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 76.1552917735574;
+        stroke-dashoffset: 76.15528951220894;
       }
     }
   
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >70</text>
+      >71</text>
     </g>
   </g>
     </svg>
